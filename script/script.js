@@ -1,7 +1,7 @@
 const userName = prompt('Inserisci il tuo nome');
 const userSurname = prompt('Inserisci il tuo cognome');
 const userColor = prompt('Inserisci il tuo colore preferito');
-if( userName.substring.length <= 3 || userSurname <= 2 )
+if( userName.length <= 3 || userSurname.length <= 2 )
 {
     alert('nome o cognome troppo corto')
 }
